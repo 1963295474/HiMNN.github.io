@@ -13,7 +13,7 @@ By constructing a **multiscale graph** (atom → molecule → formulation) and *
 ## 📊 Datasets
 
 All datasets are released under **MIT license** and hosted in the [`data/`](data/) folder.  
-After paper acceptance, the **full curated splits**, **pre-processing scripts**, and **raw sources** will also be made available in this repository.
+After paper acceptance, the **full curated splits**, **pre-processing scripts**, and **all model code** will also be made available in this repository.
 
 | Dataset | Domain | #Samples | #Components | Properties | Source |
 |---------|--------|----------|-------------|------------|--------|
@@ -22,7 +22,7 @@ After paper acceptance, the **full curated splits**, **pre-processing scripts**,
 | **SolidCond** | Solid polymer electrolytes | 11,186 | 2–5 | Ionic conductivity (σ) | [Bradford et al. 2023](https://pubs.acs.org/doi/10.1021/acscentsci.2c01181) |
 | **LCE_25*** | Liquid electrolytes | 173 | 2–6 | Coulombic efficiency (CE) | This work (to be released) |
 
-\*LCE_25 extends LCE_23 with all publicly available studies up to **May 2025**; **zero overlap** with LCE_23.
-\These four datasets constitute the most comprehensive electrolyte formulation library publicly available to date, covering all commonly used components.
+> **LCE_25** extends LCE_23 with all publicly available studies up to **May 2025**; **zero overlap** with LCE_23.  
+> These four datasets constitute the most comprehensive electrolyte formulation library publicly available to date, covering all commonly used components.
 
 
